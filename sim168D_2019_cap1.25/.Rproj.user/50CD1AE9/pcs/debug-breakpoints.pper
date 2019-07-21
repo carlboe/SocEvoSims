@@ -1,0 +1,111 @@
+{
+    "debugBreakpointsState" : {
+        "breakpoints" : [
+            {
+                "editor_line_number" : 209,
+                "editor_state" : 1,
+                "function_name" : "forward.5yr.altqx",
+                "function_steps" : "45",
+                "id" : 1,
+                "is_package_breakpoint" : false,
+                "is_pending_debug_completion" : false,
+                "line_number" : 209,
+                "needs_updated_steps" : false,
+                "package_name" : "",
+                "path" : "/data/nta0/boe/EvoSims/sim168D_2019/forward.5yr.altqx.Tcons.sociality.r",
+                "state" : 1,
+                "type" : 0
+            },
+            {
+                "editor_line_number" : 380,
+                "editor_state" : 1,
+                "function_name" : "forward.5yr.altqx",
+                "function_steps" : "139",
+                "id" : 2,
+                "is_package_breakpoint" : false,
+                "is_pending_debug_completion" : false,
+                "line_number" : 380,
+                "needs_updated_steps" : false,
+                "package_name" : "",
+                "path" : "/data/nta0/boe/EvoSims/sim168D_2019/forward.5yr.altqx.Tcons.sociality.r",
+                "state" : 1,
+                "type" : 0
+            },
+            {
+                "editor_line_number" : 418,
+                "editor_state" : 1,
+                "function_name" : "forward.5yr.altqx",
+                "function_steps" : "142,3,2",
+                "id" : 3,
+                "is_package_breakpoint" : false,
+                "is_pending_debug_completion" : false,
+                "line_number" : 418,
+                "needs_updated_steps" : false,
+                "package_name" : "",
+                "path" : "/data/nta0/boe/EvoSims/sim168D_2019/forward.5yr.altqx.Tcons.sociality.r",
+                "state" : 1,
+                "type" : 0
+            },
+            {
+                "editor_line_number" : 468,
+                "editor_state" : 1,
+                "function_name" : "forward.5yr.altqx",
+                "function_steps" : "144",
+                "id" : 4,
+                "is_package_breakpoint" : false,
+                "is_pending_debug_completion" : false,
+                "line_number" : 468,
+                "needs_updated_steps" : false,
+                "package_name" : "",
+                "path" : "/data/nta0/boe/EvoSims/sim168D_2019/forward.5yr.altqx.Tcons.sociality.r",
+                "state" : 1,
+                "type" : 0
+            },
+            {
+                "editor_line_number" : 520,
+                "editor_state" : 1,
+                "function_name" : "forward.5yr.altqx",
+                "function_steps" : "145",
+                "id" : 5,
+                "is_package_breakpoint" : false,
+                "is_pending_debug_completion" : false,
+                "line_number" : 520,
+                "needs_updated_steps" : false,
+                "package_name" : "",
+                "path" : "/data/nta0/boe/EvoSims/sim168D_2019/forward.5yr.altqx.Tcons.sociality.r",
+                "state" : 1,
+                "type" : 0
+            },
+            {
+                "editor_line_number" : 627,
+                "editor_state" : 1,
+                "function_name" : "toplevel",
+                "function_steps" : "",
+                "id" : 6,
+                "is_package_breakpoint" : false,
+                "is_pending_debug_completion" : false,
+                "line_number" : 627,
+                "needs_updated_steps" : false,
+                "package_name" : "",
+                "path" : "/data/nta0/boe/EvoSims/sim168D_2019/forward.5yr.altqx.Tcons.sociality.r",
+                "state" : 1,
+                "type" : 1
+            },
+            {
+                "editor_line_number" : 654,
+                "editor_state" : 1,
+                "function_name" : "toplevel",
+                "function_steps" : "",
+                "id" : 7,
+                "is_package_breakpoint" : false,
+                "is_pending_debug_completion" : false,
+                "line_number" : 654,
+                "needs_updated_steps" : false,
+                "package_name" : "",
+                "path" : "/data/nta0/boe/EvoSims/sim168D_2019/forward.5yr.altqx.Tcons.sociality.r",
+                "state" : 1,
+                "type" : 1
+            }
+        ]
+    }
+}

@@ -1,0 +1,71 @@
+## notes on the conversion to multiple subPop simulation
+
+- gammas are all stored at the individual level and so there is no
+  need to modify many of the calculations.  Also, as before, the
+  values are directly heritable from the mother.  What changes is that
+  the recomputation of gammas should involve only the subPopulations,
+  so that each subpopulation can evolve in a different direction.
+
+- density was redefined in such a way that the same point value
+  results from the initial population, regardless of whether density
+  is the older population based one, or the newer one using total
+  consumption.  That is, conditional on the age structure of the
+  initial population, the new measure is calibrated to equal the old
+  one.  As age structure diverges from the initial population age
+  structure, the new and old measures of density will diverge.
+  Density is a global value and applies to all subpopulations.
+
+
+- subPop.id carries the subgroup 'grouping' gene value.  The gene is
+  congenital and perfectly heritable.  In this first variation, the
+  populations are kept separate from each other.  The gene determines
+  which social grouping strategy operates in a subpopulation, or,
+  rather, it sets the type of association undertaken by mothers with
+  their relatives and non-relatives in terms of risk pooling and
+  resource sharing.
+
+- subPop.id is heritable to newborn.subPop.id and purged by deaths.
+
+- the problem of using tapply() to summarize subgroup stats was that
+  once a level of a dimension drops its count to zero (e.g. pop 1 goes
+  extinct), then that aspect gets dropped in the summary arrays.  The
+  function timapply2() and friends are hacks to get around this.  A
+  more natural way is to have the indexes be 'factors' with levels =
+  the full range of values.  When tapply operates across a factor
+  which has an empty cell, that cell gets an NA.  This is most
+  applicable to index values of 'age' and 'subPop.id'.
+
+
+- modifications of the statistics tracked to cover the three groups
+  might be possible by using  tapply(x,list(y,subPop.id),FUN), i.e.,
+  by including an additional element in the 2nd argument.  
+
+  ** e.g. died, qx computations might need to be made subpop specific,
+  but not for now.
+
+  ** kin computations.  As long as there is no mixing between subpops,
+     kin defs can be computed on the entire population.  The kin lines
+     will stay separate.
+
+- dispersal.  How to handle dispersion?  When dispersion occurs but
+  kinship or maternal groupings are kept intact, then this implies
+  that subPops will be kept intact as well.  So, all the usual
+  disperson mechanism can be applied as usual.  An open question is
+  whether or not the dispersion would be handled according to separate
+  criteria for each subPopulation.
+
+- fission.  Fission based on social group size keeps together kinship
+  groups together.  This should also keep the subpopulations
+  together. Open question is whether a 'large' group should be defined
+  in different ways for the different subpopulation types.
+
+- fusions.  This code does need modification.  We only want small
+  groups to be able to combine with other groups within their same
+
+ 
+  subpopulation.
+
+
+
+
+

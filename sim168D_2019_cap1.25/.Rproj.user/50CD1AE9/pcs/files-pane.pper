@@ -1,0 +1,13 @@
+{
+    "path" : "/data/nta0/boe/EvoSims/sim168D_2019",
+    "sortOrder" : [
+        {
+            "ascending" : false,
+            "columnIndex" : 4
+        },
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}
