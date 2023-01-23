@@ -2,7 +2,7 @@ sim168D_2019  Evolution of Sociality.
 
 
 - sim168D 9 silo'ed populations of 3 types.  This is sim168B but with
-  the elasticity of childhood sharing gamma set to 0.5, capped at 1.25, which establishes 
+  the elasticity of childhood sharing gamma set to 0.5, capped at 1.5, which establishes 
   generational correlation in gamma between mother and child.
 
 - sim168B is similar to sim167B and sim166, but with modifications to let the

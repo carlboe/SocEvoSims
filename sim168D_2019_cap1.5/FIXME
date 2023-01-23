@@ -1,0 +1,6 @@
+# need to fix sim.plots5.r  to be more careful when running
+# tapply on vectors.  E.g. the program bombs currently because
+# age groups are missing.  lt1$lx is not conformable with tx
+# when computing T1
+
+

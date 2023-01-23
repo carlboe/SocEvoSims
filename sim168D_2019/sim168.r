@@ -1,4 +1,4 @@
-## sim168D_2019.  Redo of sim168B with childhood sharing gamma effect limited to a factor of 1.25
+## sim168D_2019.  Redo of sim168B with childhood sharing gamma effect limited to a factor of 1.5
 
 ## to see if the winning strategy changes
 
